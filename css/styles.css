@@ -50,7 +50,7 @@ background-color: #FFFFFF;
 .mail-phone:hover, .mail-phone:focus {
     color: #404BBF;
 }
-.section-1 {
+.section-title {
     background-color: #2E2F42;
 
 }
@@ -77,7 +77,7 @@ button {
     background-color: #404BBF;
 }
 
-.title-h2 {
+.title-second {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -89,7 +89,7 @@ button {
 .team-member {
     background-color: #FFFFFF;
 }
-.title-h3 {
+.title-third {
 font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;   
@@ -126,6 +126,8 @@ color: #F4F4FD;
 }
 .footer-text {
 color: #F4F4FD;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .our-team-section {
     background-color: #F4F4FD;
