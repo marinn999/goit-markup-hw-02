@@ -8,8 +8,8 @@ ul, ol {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     font-size: 18px;
 }
 .web {
@@ -17,15 +17,16 @@ color: #4D5AE5
 }
 
 body {
-font-family: 'Roboto',
-        sans-serif;
-        color: #2e2f42
+font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+
 }
 .top-navigation {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: #2E2F42;
 }
@@ -36,7 +37,7 @@ font-family: 'Roboto',
     
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
     color: #434455;
@@ -52,9 +53,10 @@ font-family: 'Roboto',
 h1 {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.07;
     color: white;
+    text-align: center;
 }
 button {
     cursor: pointer;
@@ -64,7 +66,7 @@ button {
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     line-height: 1.5;
 }
 .button:hover {
@@ -73,23 +75,26 @@ button {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.1;
     text-transform: capitalize;
+}
+.team-member {
+    background-color: #FFFFFF;
 }
 h3 {
 font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;   
-    line-height: 1.2;
+    letter-spacing: 0.02em;   
+    line-height: 1.11;
+    text-align: center;
 
 }
 
 p {
 color: #434455;
-
 font-size: 16px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 line-height: 1.5;
 }
 footer {
